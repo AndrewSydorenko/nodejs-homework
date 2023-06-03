@@ -123,6 +123,7 @@ const getCurrentUser = async (req, res) => {
     });
 };
 
+
 const logout = async (req, res) => {
     const { _id: userId } = req.user;
 
